@@ -6,7 +6,7 @@ import React from 'react';
 const Navbar = () => {
     const pathName = usePathname();
     const route = useRouter();
-    console.log(pathName)
+  
     const links = [
         {
             title: "Home",
@@ -23,6 +23,10 @@ const Navbar = () => {
         {
             title: "Contact",
             path: '/contact'
+        },
+        {
+            title: "Blogs",
+            path: '/blogs'
         }
     ]
 
