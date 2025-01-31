@@ -9,7 +9,7 @@ const page = () => {
                 cricketers.map((crecketer) => (
                 <div key={cricketers.score} className='rounded border-4 text-center'>
                  <h6 className='text-3xl font-bold'>  { crecketer.name}</h6>
-                 <p className='text-blue-600 text-5xl'>{crecketer.score}</p>
+       
                  <button className='btn btn-md '> <Link href={`/blogs/specialblog/${crecketer.name}`}> Details</Link></button>
                 </div>
                 ))
