@@ -1,12 +1,11 @@
 import React from 'react';
 
-const page = () => {
-
+const loading = () => {
     return (
         <div>
-            category page
+            Dashboard Loading....
         </div>
     );
 };
 
-export default page;
+export default loading;
