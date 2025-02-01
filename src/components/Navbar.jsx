@@ -33,6 +33,10 @@ const Navbar = () => {
     const handleButton = () =>{
         route.push('/about')
     }
+
+if(pathName.includes('dashboards'))
+  return <div> dashboards layout </div>;
+ 
     return ( 
         <div>
             <div className="navbar bg-slate-200">
