@@ -1,6 +1,6 @@
 
 export default function Home() {
-  console.log(name)
+ 
   return (
     <div >
    
